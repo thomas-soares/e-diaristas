@@ -1,9 +1,12 @@
 import { SafeEnvironmentContainer } from './SafeEnvironment.style';
+import { Container } from '@material-ui/core';
 
 const SafeEnvironment = () => {
   return (
     <SafeEnvironmentContainer>
-      Ambiente Seguro
+      <Container>
+        Ambiente Seguro
+      </Container>
     </SafeEnvironmentContainer>
   );
 }
