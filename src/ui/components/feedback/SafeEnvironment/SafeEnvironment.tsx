@@ -1,7 +1,11 @@
 import { SafeEnvironmentContainer } from './SafeEnvironment.style';
 
 const SafeEnvironment = () => {
-  return <SafeEnvironmentContainer>Ambiente Seguro</SafeEnvironmentContainer>
+  return (
+    <SafeEnvironmentContainer>
+      Ambiente Seguro
+    </SafeEnvironmentContainer>
+  );
 }
 
 export default SafeEnvironment;
