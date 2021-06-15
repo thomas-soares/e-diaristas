@@ -1,5 +1,5 @@
 import { experimentalStyled as styled } from '@material-ui/core/styles';
 
-styled('div')`
+export const SafeEnvironmentContainer = styled('div')`
 
 `;
