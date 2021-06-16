@@ -1,3 +1,5 @@
+import { PageTitleContainer } from './PageTitle.style';
+
 interface PageTitleProps {
   title: string;
   subtitle: string;
