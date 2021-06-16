@@ -6,12 +6,12 @@ interface PageTitleProps {
 }
 
 const PageTitle: React.FC<PageTitleProps> = (props) => {
-    return (
-      <div>
-        {props.title}
-        {props.subtitle}
-      </div>
-    )
-  }
-  
-  export default PageTitle;
+  return (
+    <PageTitleContainer>
+      {props.title}
+      {props.subtitle}
+    </PageTitleContainer>
+  )
+}
+
+export default PageTitle;
