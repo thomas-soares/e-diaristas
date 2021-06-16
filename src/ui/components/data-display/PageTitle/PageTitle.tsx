@@ -3,7 +3,7 @@ interface PageTitleProps {
   subtitle: string;
 }
 
-const PageTitle: React.FC = (props) => {
+const PageTitle: React.FC<PageTitleProps> = (props) => {
     return (
       <div>
         {props.title}
