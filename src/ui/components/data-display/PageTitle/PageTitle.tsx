@@ -1,4 +1,4 @@
-const PageTitle = (props) => {
+const PageTitle: React.FC = (props) => {
     return (
       <div>
         {props.title}
