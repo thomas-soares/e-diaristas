@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <div>
       <SafeEnvironment />
-      <PageTitle />
+      <PageTitle
+        title={'Conheça os profissionais'}
+      />
     </div>
   )
 }
