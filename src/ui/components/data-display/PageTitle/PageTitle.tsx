@@ -1,3 +1,8 @@
+interface PageTitleProps {
+  title: string;
+  subtitle: string;
+}
+
 const PageTitle: React.FC = (props) => {
     return (
       <div>
