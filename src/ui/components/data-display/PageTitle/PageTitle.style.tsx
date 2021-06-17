@@ -7,6 +7,6 @@ export const PageTitleContainer = styled('div')`
 
 export const PageTitleStyled = styled('h2')`
   margin: 0;
-  color: ${(props) => props.theme.palette.primary.main};
+  color: ${({ theme }) => theme.palette.primary.main};
   font-weight: 600;
 `;
