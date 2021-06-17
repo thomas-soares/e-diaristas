@@ -22,4 +22,7 @@ export const PageSubtitleStyled = styled('h3')`
   font-size: ${({ theme }) => theme.typography.body1.fontSize};
   font-weight: normal;
   
+  ${({ theme }) => theme.breakpoints.down('md')} {
+    font-size: ${({ theme }) => theme.typography.body2.fontSize};
+  }
 `;
