@@ -15,6 +15,7 @@ export const PageTitleStyled = styled('h2')`
     font-size: ${({ theme }) => theme.typography.body1.fontSize};
   }
 `;
+
 export const PageSubtitleStyled = styled('h3')`
-  
+  margin: ${({ theme }) => theme.spacing(1.5) + ' ' + 0};
 `;
