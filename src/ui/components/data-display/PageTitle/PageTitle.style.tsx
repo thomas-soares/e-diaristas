@@ -18,4 +18,5 @@ export const PageTitleStyled = styled('h2')`
 
 export const PageSubtitleStyled = styled('h3')`
   margin: ${({ theme }) => theme.spacing(1.5) + ' ' + 0};
+  color: ${({ theme }) => theme.palette.text.primary};
 `;
