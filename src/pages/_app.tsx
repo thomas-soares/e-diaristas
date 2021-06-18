@@ -5,12 +5,14 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Head>
-      <title>e-diaristas</title>
-    </Head>
-    <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <>
+      <Head>
+        <title>e-diaristas</title>
+      </Head>
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   );
 }
 
