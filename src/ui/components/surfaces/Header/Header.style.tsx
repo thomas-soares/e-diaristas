@@ -19,4 +19,10 @@ export const HeaderAppBar = styled(AppBar)`
   }
 `;
 
-export const HeaderLogo = styled("img")``;
+export const HeaderLogo = styled("img")`
+  height: 25px;
+
+  ${({ theme }) => theme.breakpoints.up("md")} {
+    height: 47px;
+  }
+`;
