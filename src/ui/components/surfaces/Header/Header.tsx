@@ -1,10 +1,12 @@
-import { HeaderAppBar } from "./Header.style";
+import { HeaderAppBar, HeaderLogo } from "./Header.style";
 import { Toolbar } from "@material-ui/core";
 
 const Header: React.FC = () => {
   return (
     <HeaderAppBar position={"sticky"}>
-      <Toolbar>siehgiuse</Toolbar>
+      <Toolbar>
+        <HeaderLogo src={"/img/logos/logo.svg"} alt={"e-diaristas"} />
+      </Toolbar>
     </HeaderAppBar>
   );
 };
