@@ -1,6 +1,6 @@
 import { HeaderContainer } from "./Header.style";
 
-const Header = () => {
+const Header: React.FC = () => {
   return <HeaderContainer></HeaderContainer>;
 };
 
