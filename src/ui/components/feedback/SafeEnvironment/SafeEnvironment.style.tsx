@@ -1,7 +1,7 @@
-import { experimentalStyled as styled } from '@material-ui/core/styles';
+import { experimentalStyled as styled } from "@material-ui/core/styles";
 
-export const SafeEnvironmentContainer = styled('div')`
+export const SafeEnvironmentContainer = styled("div")`
   text-align: right;
-  padding: 16px 0;
+  padding: ${({ theme }) => theme.spacing(2)} 0;
   font-size: 12px;
 `;
