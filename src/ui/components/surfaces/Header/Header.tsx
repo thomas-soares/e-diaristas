@@ -1,7 +1,7 @@
-import { HeaderContainer } from "./Header.style";
+import { HeaderAppBar } from "./Header.style";
 
 const Header: React.FC = () => {
-  return <HeaderContainer></HeaderContainer>;
+  return <HeaderAppBar></HeaderAppBar>;
 };
 
 export default Header;
