@@ -10,6 +10,13 @@ export const HeaderAppBar = styled(AppBar)`
       height: 100px;
     }
   }
+
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    .MuiToolbar-root {
+      display: flex;
+      justify-content: center;
+    }
+  }
 `;
 
 export const HeaderLogo = styled("img")``;
