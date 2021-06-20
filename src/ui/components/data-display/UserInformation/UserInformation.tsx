@@ -11,8 +11,8 @@ const UserInformation: React.FC = (props) => {
     <UserInformationContainer>
       <AvatarStyled src={"https://github.com/thomas-soares.png"} />
       <UserName>Thomas</UserName>
-      <RatingStyled />
-      <UserDescription />
+      <RatingStyled readOnly value={3} />
+      <UserDescription>Porto Alegre</UserDescription>
     </UserInformationContainer>
   );
 };
