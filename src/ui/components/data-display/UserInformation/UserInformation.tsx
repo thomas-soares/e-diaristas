@@ -9,7 +9,7 @@ import {
 const UserInformation: React.FC = (props) => {
   return (
     <UserInformationContainer>
-      <AvatarStyled />
+      <AvatarStyled src={"https://github.com/thomas-soares.png"} />
       <UserName>Thomas</UserName>
       <RatingStyled />
       <UserDescription />
