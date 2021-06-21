@@ -13,13 +13,13 @@ interface UserInformationProps {
   description?: string;
 }
 
-const UserInformation: React.FC = (props) => {
+const UserInformation: React.FC<UserInformationProps> = (props) => {
   return (
     <UserInformationContainer>
-      <AvatarStyled src={"https://github.com/thomas-soares.png"} />
-      <UserName>Thomas</UserName>
-      <RatingStyled readOnly value={3} />
-      <UserDescription>Porto Alegre</UserDescription>
+      <AvatarStyled src={props.picture} />
+      <UserName>{props.name}</UserName>
+      <RatingStyled readOnly value={props.rating} />
+      <UserDescription>{props.description}</UserDescription>
     </UserInformationContainer>
   );
 };
