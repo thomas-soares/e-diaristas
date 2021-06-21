@@ -6,6 +6,13 @@ import {
   RatingStyled,
 } from "./UserInformation.style";
 
+interface UserInformationProps {
+  picture: string;
+  name: string;
+  rating: number;
+  description?: string;
+}
+
 const UserInformation: React.FC = (props) => {
   return (
     <UserInformationContainer>
