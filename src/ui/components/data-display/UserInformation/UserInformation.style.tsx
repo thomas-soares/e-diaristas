@@ -9,6 +9,8 @@ export const UserInformationContainer = styled("div")`
     "avatar name"
     "avatar rating"
     "avatar description";
+  background-color: ${({ theme }) => theme.palette.grey[50]};
+  padding: ${({ theme }) => theme.spacing(3)};
 `;
 
 export const UserName = styled("div")`
