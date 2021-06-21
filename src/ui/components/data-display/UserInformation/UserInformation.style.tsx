@@ -30,6 +30,9 @@ export const UserDescription = styled("div")`
 
 export const AvatarStyled = styled(Avatar)`
   grid-area: avatar;
+  width: 100%;
+  height: initial;
+  aspect-ratio: 1;
 `;
 
 export const RatingStyled = styled(Rating)`
