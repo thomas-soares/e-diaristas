@@ -16,4 +16,6 @@ export const UserDescription = styled("div")`
 
 export const AvatarStyled = styled(Avatar)``;
 
-export const RatingStyled = styled(Rating)``;
+export const RatingStyled = styled(Rating)`
+  font-size: 14px;
+`;
