@@ -9,7 +9,10 @@ export const UserName = styled("div")`
   font-size: ${({ theme }) => theme.typography.body2.fontSize};
 `;
 
-export const UserDescription = styled("div")``;
+export const UserDescription = styled("div")`
+  color: ${({ theme }) => theme.palette.text.secondary};
+  font-size: ${({ theme }) => theme.typography.body2.fontSize};
+`;
 
 export const AvatarStyled = styled(Avatar)``;
 
