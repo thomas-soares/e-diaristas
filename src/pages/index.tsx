@@ -12,7 +12,12 @@ export default function Home() {
           "Preencha seu endereço e veja todos os profissionais da sua localidade"
         }
       />
-      <UserInformation />
+      <UserInformation
+        name={"Thomas"}
+        picture={"https://github.com/thomas-soares.png"}
+        rating={3}
+        description={"Porto Alegre"}
+      />
     </div>
   );
 }
