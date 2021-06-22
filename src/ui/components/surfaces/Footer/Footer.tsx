@@ -1,4 +1,4 @@
-import { FooterStyled, FooterContainer } from "./Footer.style";
+import { FooterStyled, FooterContainer, FooterTitle } from "./Footer.style";
 
 const Footer: React.FC = () => {
   return (
