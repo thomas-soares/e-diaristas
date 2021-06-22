@@ -10,4 +10,6 @@ export const FooterStyled = styled("footer")`
 
 export const FooterContainer = styled(Container)``;
 
-export const FooterTitle = styled(Typography)``;
+export const FooterTitle = styled((props) => {
+  <Typography component={"h2"} variant={"body2"} {...props} />;
+})``;
