@@ -3,7 +3,9 @@ import { FooterStyled, FooterContainer, FooterTitle } from "./Footer.style";
 const Footer: React.FC = () => {
   return (
     <FooterStyled>
-      <FooterContainer>isuehguisheui</FooterContainer>
+      <FooterContainer>
+        isuehguisheui <FooterTitle>Quem somos</FooterTitle>
+      </FooterContainer>
     </FooterStyled>
   );
 };
