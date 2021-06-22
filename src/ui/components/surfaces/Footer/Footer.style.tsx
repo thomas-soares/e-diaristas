@@ -7,3 +7,5 @@ export const FooterStyled = styled("footer")`
     theme.palette.getContrastText(theme.palette.primary.main)};
   padding: ${({ theme }) => theme.spacing(4)} 0;
 `;
+
+export const FooterContainer = styled(Container)``;
