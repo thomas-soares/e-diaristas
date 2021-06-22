@@ -9,3 +9,5 @@ export const FooterStyled = styled("footer")`
 `;
 
 export const FooterContainer = styled(Container)``;
+
+export const FooterTitle = styled(Typography)``;
