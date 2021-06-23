@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 import {
   FooterStyled,
   FooterContainer,
