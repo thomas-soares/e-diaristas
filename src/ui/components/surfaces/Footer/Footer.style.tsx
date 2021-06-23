@@ -20,4 +20,8 @@ export const AppList = styled("ul")`
   display: flex;
   list-style-type: none;
   padding: 0;
+
+  img {
+    width: 122px;
+  }
 `;
