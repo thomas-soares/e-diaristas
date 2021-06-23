@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
           repudiandae voluptas, accusantium a quod veritatis rerum optio
           temporibus ab similique unde sunt laborum iure?
         </Typography>
+        <FooterTitle>Baixe nossos aplicativos</FooterTitle>
       </FooterContainer>
     </FooterStyled>
   );
