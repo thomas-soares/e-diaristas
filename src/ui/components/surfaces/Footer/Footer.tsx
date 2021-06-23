@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   return (
     <FooterStyled>
       <FooterContainer>
-        <Box>
+        <Box sx={{ maxWidth: "400px" }}>
           <FooterTitle>Quem somos</FooterTitle>
           <Typography>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
