@@ -24,6 +24,11 @@ const Footer: React.FC = () => {
               <img src={"/img/logos/app-store.png"} alt={"AppStore"} />
             </a>
           </li>
+          <li>
+            <a href={"/"} target={"_blank"} rel={"noopener noreferrer"}>
+              <img src={"/img/logos/google-play.png"} alt={"Google Play"} />
+            </a>
+          </li>
         </AppList>
       </FooterContainer>
     </FooterStyled>
