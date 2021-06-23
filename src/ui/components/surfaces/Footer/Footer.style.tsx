@@ -8,7 +8,10 @@ export const FooterStyled = styled("footer")`
   padding: ${({ theme }) => theme.spacing(4)} 0;
 `;
 
-export const FooterContainer = styled(Container)``;
+export const FooterContainer = styled(Container)`
+  display: flex;
+  justify-content: space-between;
+`;
 
 export const FooterTitle = styled((props) => (
   <Typography component={"h2"} variant={"body2"} {...props} />
