@@ -23,6 +23,7 @@ export const AppList = styled("ul")`
   display: flex;
   list-style-type: none;
   padding: 0;
+  gap: ${({ theme }) => theme.spacing()};
 
   img {
     width: 122px;
