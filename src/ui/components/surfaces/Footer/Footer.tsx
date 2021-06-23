@@ -18,6 +18,13 @@ const Footer: React.FC = () => {
           temporibus ab similique unde sunt laborum iure?
         </Typography>
         <FooterTitle>Baixe nossos aplicativos</FooterTitle>
+        <AppList>
+          <li>
+            <a href={"/"} target={"_blank"} rel={"noopener noreferrer"}>
+              <img src={"/img/logos/app-store.png"} alt={"AppStore"} />
+            </a>
+          </li>
+        </AppList>
       </FooterContainer>
     </FooterStyled>
   );
