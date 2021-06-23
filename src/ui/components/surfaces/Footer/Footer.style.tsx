@@ -16,4 +16,8 @@ export const FooterTitle = styled((props) => (
   font-weight: bold;
 `;
 
-export const AppList = styled("ul")``;
+export const AppList = styled("ul")`
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+`;
