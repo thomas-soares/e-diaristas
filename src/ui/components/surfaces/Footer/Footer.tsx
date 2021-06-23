@@ -1,5 +1,10 @@
 import { Typography } from "@material-ui/core";
-import { FooterStyled, FooterContainer, FooterTitle } from "./Footer.style";
+import {
+  FooterStyled,
+  FooterContainer,
+  FooterTitle,
+  AppList,
+} from "./Footer.style";
 
 const Footer: React.FC = () => {
   return (
