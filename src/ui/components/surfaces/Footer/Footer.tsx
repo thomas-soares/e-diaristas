@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   return (
     <FooterStyled>
       <FooterContainer>
-        <div>
+        <Box>
           <FooterTitle>Quem somos</FooterTitle>
           <Typography>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
             repudiandae voluptas, accusantium a quod veritatis rerum optio
             temporibus ab similique unde sunt laborum iure?
           </Typography>
-        </div>
-        <div>
+        </Box>
+        <Box>
           <FooterTitle>Baixe nossos aplicativos</FooterTitle>
           <AppList>
             <li>
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               </a>
             </li>
           </AppList>
-        </div>
+        </Box>
       </FooterContainer>
     </FooterStyled>
   );
