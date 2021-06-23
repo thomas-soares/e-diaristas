@@ -5,7 +5,13 @@ const Footer: React.FC = () => {
   return (
     <FooterStyled>
       <FooterContainer>
-        isuehguisheui <FooterTitle>Quem somos</FooterTitle>
+        <FooterTitle>Quem somos</FooterTitle>
+        <Typography>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Necessitatibus eaque corporis est explicabo voluptatum, obcaecati
+          repudiandae voluptas, accusantium a quod veritatis rerum optio
+          temporibus ab similique unde sunt laborum iure?
+        </Typography>
       </FooterContainer>
     </FooterStyled>
   );
