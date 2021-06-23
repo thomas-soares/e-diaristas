@@ -15,3 +15,5 @@ export const FooterTitle = styled((props) => (
 ))`
   font-weight: bold;
 `;
+
+export const AppList = styled("ul")``;
