@@ -19,9 +19,11 @@ function MyApp({ Component, pageProps }) {
         <link href="/fonts/tw-icons/css/treinaweb-icons.css" rel="stylesheet" />
       </Head>
       <ThemeProvider theme={theme}>
-        <Header />
-        <Component {...pageProps} />
-        <Footer />
+        <AppContainer>
+          <Header />
+          <Component {...pageProps} />
+          <Footer />
+        </AppContainer>
       </ThemeProvider>
     </>
   );
