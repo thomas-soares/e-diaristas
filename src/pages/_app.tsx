@@ -2,6 +2,7 @@ import "@styles/globals.css";
 import { ThemeProvider } from "@material-ui/core";
 import theme from "ui/themes/theme";
 import Head from "next/head";
+import AppContainer from "ui/styles/pages/_app.style";
 import Header from "ui/components/surfaces/Header/Header";
 import Footer from "ui/components/surfaces/Footer/Footer";
 
