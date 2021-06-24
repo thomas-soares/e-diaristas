@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
       <FooterContainer>
         <Box sx={{ maxWidth: "400px" }}>
           <FooterTitle>Quem somos</FooterTitle>
-          <Typography variant={"body2"}>
+          <Typography variant={"body2"} sx={{ mt: 2 }}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Necessitatibus eaque corporis est explicabo voluptatum, obcaecati
             repudiandae voluptas, accusantium a quod veritatis rerum optio
