@@ -13,6 +13,10 @@ export const FooterContainer = styled(Container)`
   justify-content: space-between;
   gap: ${({ theme }) => theme.spacing(2)};
   flex-wrap: wrap;
+
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    gap: ${({ theme }) => theme.spacing(5)};
+  }
 `;
 
 export const FooterTitle = styled((props) => (
