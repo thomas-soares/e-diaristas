@@ -11,6 +11,7 @@ export const FooterStyled = styled("footer")`
 export const FooterContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
+  gap: ${({ theme }) => theme.spacing(2)};
 `;
 
 export const FooterTitle = styled((props) => (
