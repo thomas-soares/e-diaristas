@@ -1,3 +1,4 @@
+import InputMask from "react-input-mask";
 import TextField from "ui/components/inputs/TextField/TextField";
 
 const TextFieldMask = (props) => {
