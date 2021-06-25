@@ -5,9 +5,9 @@ export interface TextFieldMaskProps {
   mask: string;
 }
 
-const TextFieldMask: React.FC<TextFieldMaskProps> = (props) => {
+const TextFieldMask: React.FC<TextFieldMaskProps> = ({ mask }) => {
   return (
-    <InputMask mask={"99.999-999"}>
+    <InputMask mask={mask}>
       {() => {
         return <TextField />;
       }}
