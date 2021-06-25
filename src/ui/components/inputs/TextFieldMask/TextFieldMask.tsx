@@ -3,7 +3,7 @@ import TextField from "ui/components/inputs/TextField/TextField";
 
 const TextFieldMask = (props) => {
   return (
-    <InputMask>
+    <InputMask mask={"99.999-999"}>
       {() => {
         return <TextField />;
       }}
