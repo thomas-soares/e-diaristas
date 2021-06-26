@@ -20,7 +20,7 @@ export default function Home() {
         variant={"outlined"}
         fullWidth
       />
-      <Button variant={"contained"} color={"secondary"}>
+      <Button variant={"contained"} color={"secondary"} sx={{ width: "220px" }}>
         Buscar
       </Button>
       <UserInformation
