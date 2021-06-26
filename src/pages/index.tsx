@@ -20,7 +20,9 @@ export default function Home() {
         variant={"outlined"}
         fullWidth
       />
-      <Button variant={"contained"}>Buscar</Button>
+      <Button variant={"contained"} color={"secondary"}>
+        Buscar
+      </Button>
       <UserInformation
         name={"Thomas"}
         picture={"https://github.com/thomas-soares.png"}
