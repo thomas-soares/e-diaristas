@@ -20,6 +20,7 @@ export default function Home() {
         variant={"outlined"}
         fullWidth
       />
+      <Button>Buscar</Button>
       <UserInformation
         name={"Thomas"}
         picture={"https://github.com/thomas-soares.png"}
