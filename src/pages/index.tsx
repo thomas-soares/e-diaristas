@@ -13,7 +13,12 @@ export default function Home() {
           "Preencha seu endereço e veja todos os profissionais da sua localidade"
         }
       />
-      <TextFieldMask mask={"99.999-999"} label={"Digite seu CEP"} fullWidth />
+      <TextFieldMask
+        mask={"99.999-999"}
+        label={"Digite seu CEP"}
+        variant={"outlined"}
+        fullWidth
+      />
       <UserInformation
         name={"Thomas"}
         picture={"https://github.com/thomas-soares.png"}
