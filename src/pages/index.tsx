@@ -20,6 +20,7 @@ export default function Home() {
         variant={"outlined"}
         fullWidth
       />
+      <Typography color={"error"}>CEP inválido</Typography>
       <Button variant={"contained"} color={"secondary"} sx={{ width: "220px" }}>
         Buscar
       </Button>
