@@ -6,6 +6,7 @@ import { Button, Typography } from "@material-ui/core";
 import {
   FormElementsContainer,
   ProfessionalsPaper,
+  ProfessionalsContainer,
 } from "ui/styles/pages/index.style";
 
 export default function Home() {
