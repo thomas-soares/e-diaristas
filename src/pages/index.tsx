@@ -15,16 +15,22 @@ export default function Home() {
           "Preencha seu endereço e veja todos os profissionais da sua localidade"
         }
       />
-      <TextFieldMask
-        mask={"99.999-999"}
-        label={"Digite seu CEP"}
-        variant={"outlined"}
-        fullWidth
-      />
-      <Typography color={"error"}>CEP inválido</Typography>
-      <Button variant={"contained"} color={"secondary"} sx={{ width: "220px" }}>
-        Buscar
-      </Button>
+      <FormElementsContainer>
+        <TextFieldMask
+          mask={"99.999-999"}
+          label={"Digite seu CEP"}
+          variant={"outlined"}
+          fullWidth
+        />
+        <Typography color={"error"}>CEP inválido</Typography>
+        <Button
+          variant={"contained"}
+          color={"secondary"}
+          sx={{ width: "220px" }}
+        >
+          Buscar
+        </Button>
+      </FormElementsContainer>
       <UserInformation
         name={"Thomas"}
         picture={"https://github.com/thomas-soares.png"}
