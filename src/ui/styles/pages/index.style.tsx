@@ -15,4 +15,7 @@ export const ProfessionalsPaper = styled(Paper)`
   padding: ${({ theme }) => theme.spacing(7)};
 `;
 
-export const ProfessionalsContainer = styled("div")``;
+export const ProfessionalsContainer = styled("div")`
+  display: grid;
+  grid-template-columns: 1fr;
+`;
