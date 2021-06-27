@@ -13,6 +13,13 @@ export const FormElementsContainer = styled("div")`
 export const ProfessionalsPaper = styled(Paper)`
   margin: 0 auto ${({ theme }) => theme.spacing(10)};
   padding: ${({ theme }) => theme.spacing(7)};
+
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    &.MuiPaper-root {
+      padding: 0;
+      box-shadow: none;
+    }
+  }
 `;
 
 export const ProfessionalsContainer = styled("div")`
