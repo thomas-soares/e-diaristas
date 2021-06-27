@@ -14,3 +14,5 @@ export const ProfessionalsPaper = styled(Paper)`
   margin: 0 auto ${({ theme }) => theme.spacing(10)};
   padding: ${({ theme }) => theme.spacing(7)};
 `;
+
+export const ProfessionalsContainer = styled("div")``;
