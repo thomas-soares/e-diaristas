@@ -3,7 +3,10 @@ import PageTitle from "ui/components/data-display/PageTitle/PageTitle";
 import UserInformation from "ui/components/data-display/UserInformation/UserInformation";
 import TextFieldMask from "ui/components/inputs/TextFieldMask/TextFieldMask";
 import { Button, Typography } from "@material-ui/core";
-import { FormElementsContainer } from "ui/styles/pages/index.style";
+import {
+  FormElementsContainer,
+  ProfessionalsPaper,
+} from "ui/styles/pages/index.style";
 
 export default function Home() {
   return (
