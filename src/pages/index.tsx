@@ -36,48 +36,50 @@ export default function Home() {
         </Button>
       </FormElementsContainer>
       <ProfessionalsPaper>
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
-        <UserInformation
-          name={"Thomas"}
-          picture={"https://github.com/thomas-soares.png"}
-          rating={3}
-          description={"Porto Alegre"}
-        />
+        <ProfessionalsContainer>
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+          <UserInformation
+            name={"Thomas"}
+            picture={"https://github.com/thomas-soares.png"}
+            rating={3}
+            description={"Porto Alegre"}
+          />
+        </ProfessionalsContainer>
       </ProfessionalsPaper>
     </div>
   );
