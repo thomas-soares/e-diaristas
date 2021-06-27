@@ -9,3 +9,5 @@ export const FormElementsContainer = styled("div")`
   max-width: 650px;
   margin: 0 auto ${({ theme }) => theme.spacing(7)};
 `;
+
+export const ProfessionalsPaper = styled(Paper)``;
