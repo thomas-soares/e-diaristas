@@ -18,4 +18,9 @@ export const ProfessionalsPaper = styled(Paper)`
 export const ProfessionalsContainer = styled("div")`
   display: grid;
   grid-template-columns: 1fr;
+
+  ${({ theme }) => theme.breakpoints.up("md")} {
+    grid-template-columns: repeat(2, 1fr);
+    gap: ${({ theme }) => theme.spacing(6)};
+  }
 `;
