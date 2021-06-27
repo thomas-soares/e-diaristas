@@ -30,4 +30,13 @@ export const ProfessionalsContainer = styled("div")`
     grid-template-columns: repeat(2, 1fr);
     gap: ${({ theme }) => theme.spacing(6)};
   }
+
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    margin-left: ${({ theme }) => theme.spacing(-2)};
+    margin-right: ${({ theme }) => theme.spacing(-2)};
+
+    > :nth-of-type(odd) {
+      background-color: ${({ theme }) => theme.palette.background.paper};
+    }
+  }
 `;
