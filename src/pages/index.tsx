@@ -29,6 +29,7 @@ export default function Home() {
             label={"Digite seu CEP"}
             variant={"outlined"}
             value={cep}
+            onChange={(event) => setCep(event.target.value)}
             fullWidth
           />
           <Typography color={"error"}>CEP inválido</Typography>
