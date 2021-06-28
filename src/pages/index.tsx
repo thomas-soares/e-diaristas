@@ -28,6 +28,7 @@ export default function Home() {
             mask={"99.999-999"}
             label={"Digite seu CEP"}
             variant={"outlined"}
+            value={cep}
             fullWidth
           />
           <Typography color={"error"}>CEP inválido</Typography>
