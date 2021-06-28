@@ -19,68 +19,70 @@ export default function Home() {
           "Preencha seu endereço e veja todos os profissionais da sua localidade"
         }
       />
-      <FormElementsContainer>
-        <TextFieldMask
-          mask={"99.999-999"}
-          label={"Digite seu CEP"}
-          variant={"outlined"}
-          fullWidth
-        />
-        <Typography color={"error"}>CEP inválido</Typography>
-        <Button
-          variant={"contained"}
-          color={"secondary"}
-          sx={{ width: "220px" }}
-        >
-          Buscar
-        </Button>
-      </FormElementsContainer>
-      <ProfessionalsPaper>
-        <ProfessionalsContainer>
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
+      <Container>
+        <FormElementsContainer>
+          <TextFieldMask
+            mask={"99.999-999"}
+            label={"Digite seu CEP"}
+            variant={"outlined"}
+            fullWidth
           />
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
-          />
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
-          />
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
-          />
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
-          />
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
-          />
-          <UserInformation
-            name={"Thomas"}
-            picture={"https://github.com/thomas-soares.png"}
-            rating={3}
-            description={"Porto Alegre"}
-          />
-        </ProfessionalsContainer>
-      </ProfessionalsPaper>
+          <Typography color={"error"}>CEP inválido</Typography>
+          <Button
+            variant={"contained"}
+            color={"secondary"}
+            sx={{ width: "220px" }}
+          >
+            Buscar
+          </Button>
+        </FormElementsContainer>
+        <ProfessionalsPaper>
+          <ProfessionalsContainer>
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+            <UserInformation
+              name={"Thomas"}
+              picture={"https://github.com/thomas-soares.png"}
+              rating={3}
+              description={"Porto Alegre"}
+            />
+          </ProfessionalsContainer>
+        </ProfessionalsPaper>
+      </Container>
     </div>
   );
 }
