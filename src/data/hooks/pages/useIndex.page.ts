@@ -6,7 +6,9 @@ export default function useIndex() {
   const [error, setError] = useState("");
   const [searchDone, setSearchDone] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [professionals, setProfessionals] = useState([]);
+  const [professionals, setProfessionals] = useState(
+    [] as UserShortInterface[]
+  );
 
   return {
     cep,
