@@ -4,6 +4,7 @@ export default function useIndex() {
   const [cep, setCep] = useState("");
   const [error, setError] = useState("");
   const [searchDone, setSearchDone] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   return {
     cep,
@@ -12,5 +13,7 @@ export default function useIndex() {
     setError,
     searchDone,
     setSearchDone,
+    isLoading,
+    setIsLoading,
   };
 }
