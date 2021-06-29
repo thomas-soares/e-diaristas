@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { UserShortInterface } from "data/@types/UserInterface";
 
 export default function useIndex() {
   const [cep, setCep] = useState("");
