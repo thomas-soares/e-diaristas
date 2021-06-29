@@ -9,6 +9,7 @@ export default function useIndex() {
   const [professionals, setProfessionals] = useState(
     [] as UserShortInterface[]
   );
+  const [remainingProfessionals, setRemainingProfessionals] = useState(0);
 
   return {
     cep,
@@ -21,5 +22,7 @@ export default function useIndex() {
     setIsLoading,
     professionals,
     setProfessionals,
+    remainingProfessionals,
+    setRemainingProfessionals,
   };
 }
