@@ -16,5 +16,7 @@ export default function useIndex() {
     setSearchDone,
     isLoading,
     setIsLoading,
+    professionals,
+    setProfessionals,
   };
 }
