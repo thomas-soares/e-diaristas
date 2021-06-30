@@ -7,10 +7,10 @@ export default function useIndex() {
   const [error, setError] = useState("");
   const [searchDone, setSearchDone] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [remainingProfessionals, setRemainingProfessionals] = useState(0);
   const [professionals, setProfessionals] = useState(
     [] as UserShortInterface[]
   );
-  const [remainingProfessionals, setRemainingProfessionals] = useState(0);
 
   return {
     cep,
