@@ -4,6 +4,10 @@ import { ValidationService } from "data/services/ValidationService";
 
 export default function useIndex() {
   const [cep, setCep] = useState("");
+  const validCep = useMemo(() => {
+    return ValidationService.cep(cep);
+  }, [cep]);
+
   const [error, setError] = useState("");
   const [searchDone, setSearchDone] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -11,8 +15,6 @@ export default function useIndex() {
   const [professionals, setProfessionals] = useState(
     [] as UserShortInterface[]
   );
-
-  const validCep = ValidationService.cep(cep) ? "CEP VALIDO" : "CEP INVALIDO";
 
   return {
     cep,
