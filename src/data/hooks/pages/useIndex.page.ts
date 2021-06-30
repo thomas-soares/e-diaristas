@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { UserShortInterface } from "data/@types/UserInterface";
+import { ValidationService } from "data/services/ValidationService";
 
 export default function useIndex() {
   const [cep, setCep] = useState("");
