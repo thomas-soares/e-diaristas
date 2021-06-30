@@ -1,5 +1,5 @@
 export const ValidationService = {
   cep(cep = "") {
-    cep.replace(/\D/g, "");
+    return cep.replace(/\D/g, "").length === 8;
   },
 };
