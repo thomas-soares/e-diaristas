@@ -12,6 +12,8 @@ export default function useIndex() {
     [] as UserShortInterface[]
   );
 
+  const validCep = ValidationService.cep(cep) ? "CEP VALIDO" : "CEP INVALIDO";
+
   return {
     cep,
     setCep,
