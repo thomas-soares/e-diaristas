@@ -21,6 +21,8 @@ export default function useIndex() {
     setSearchDone(false);
     setIsLoading(true);
     setError("");
+
+    ApiService.get(`/api/professionals-city?cep=${cep}`);
   }
 
   return {
