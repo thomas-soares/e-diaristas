@@ -23,6 +23,8 @@ export default function useIndex() {
     setError("");
 
     ApiService.get(`/api/professionals-city?cep=${cep.replace(/\D/g, "")}`);
+
+    setSearchDone(true);
   }
 
   return {
