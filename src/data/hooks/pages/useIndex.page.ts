@@ -17,7 +17,9 @@ export default function useIndex() {
     [] as UserShortInterface[]
   );
 
-  function searchProfessionals(cep: string) {}
+  function searchProfessionals(cep: string) {
+    setSearchDone(false);
+  }
 
   return {
     cep,
