@@ -22,7 +22,7 @@ export default function useIndex() {
     setIsLoading(true);
     setError("");
 
-    ApiService.get(`/api/professionals-city?cep=${cep}`);
+    ApiService.get(`/api/professionals-city?cep=${cep.replace(/\D/g, "")}`);
   }
 
   return {
