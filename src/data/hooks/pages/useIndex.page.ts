@@ -19,6 +19,7 @@ export default function useIndex() {
 
   function searchProfessionals(cep: string) {
     setSearchDone(false);
+    setIsLoading(true);
   }
 
   return {
