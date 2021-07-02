@@ -26,12 +26,12 @@ export default function useIndex() {
       await ApiService.get(
         `/api/professionals-city?cep=${cep.replace(/\D/g, "")}`
       );
+      setSearchDone(true);
+      setIsLoading(false);
     } catch (error) {
       setError("CEP não encontrado");
       setIsLoading(false);
     }
-
-    setSearchDone(true);
   }
 
   return {
