@@ -22,9 +22,11 @@ export default function useIndex() {
     setIsLoading(true);
     setError("");
 
-    await ApiService.get(
-      `/api/professionals-city?cep=${cep.replace(/\D/g, "")}`
-    );
+    try {
+      await ApiService.get(
+        `/api/professionals-city?cep=${cep.replace(/\D/g, "")}`
+      );
+    } catch (error) {}
 
     setSearchDone(true);
   }
