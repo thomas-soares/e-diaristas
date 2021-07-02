@@ -47,6 +47,7 @@ export default function Home() {
             variant={"contained"}
             color={"secondary"}
             sx={{ width: "220px" }}
+            disabled={!validCep}
           >
             Buscar
           </Button>
