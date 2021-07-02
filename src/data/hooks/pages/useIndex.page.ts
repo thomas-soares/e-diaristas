@@ -27,6 +27,8 @@ export default function useIndex() {
         professionals: UserShortInterface[];
         quantity_professionals: number;
       }>(`/api/professionals-city?cep=${cep.replace(/\D/g, "")}`);
+      setProfessionals(data.professionals);
+      setRemainingProfessionals(data.quantity_professionals);
       setSearchDone(true);
       setIsLoading(false);
     } catch (error) {
