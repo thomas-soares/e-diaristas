@@ -17,12 +17,14 @@ export default function useIndex() {
     [] as UserShortInterface[]
   );
 
-  function searchProfessionals(cep: string) {
+  async function searchProfessionals(cep: string) {
     setSearchDone(false);
     setIsLoading(true);
     setError("");
 
-    ApiService.get(`/api/professionals-city?cep=${cep.replace(/\D/g, "")}`);
+    await ApiService.get(
+      `/api/professionals-city?cep=${cep.replace(/\D/g, "")}`
+    );
 
     setSearchDone(true);
   }
