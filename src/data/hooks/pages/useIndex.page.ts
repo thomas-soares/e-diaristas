@@ -23,9 +23,10 @@ export default function useIndex() {
     setError("");
 
     try {
-      await ApiService.get(
-        `/api/professionals-city?cep=${cep.replace(/\D/g, "")}`
-      );
+      const { data } = await ApiService.get<{
+        professionals: UserShortInterface[];
+        quantity_professionals: number;
+      }>(`/api/professionals-city?cep=${cep.replace(/\D/g, "")}`);
       setSearchDone(true);
       setIsLoading(false);
     } catch (error) {
