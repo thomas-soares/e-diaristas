@@ -40,16 +40,12 @@ export default function useIndex() {
   return {
     cep,
     setCep,
-    error,
-    setError,
-    searchDone,
-    setSearchDone,
-    isLoading,
-    setIsLoading,
-    professionals,
-    setProfessionals,
-    remainingProfessionals,
-    setRemainingProfessionals,
     validCep,
+    searchProfessionals,
+    error,
+    professionals,
+    searchDone,
+    isLoading,
+    remainingProfessionals,
   };
 }
