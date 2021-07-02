@@ -42,7 +42,7 @@ export default function Home() {
             onChange={(event) => setCep(event.target.value)}
             fullWidth
           />
-          <Typography color={"error"}>CEP inválido</Typography>
+          {error && <Typography color={"error"}>{error}</Typography>}
           <Button
             variant={"contained"}
             color={"secondary"}
