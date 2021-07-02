@@ -11,7 +11,17 @@ import {
 import useIndex from "data/hooks/pages/useIndex.page";
 
 export default function Home() {
-  const { cep, setCep, validCep } = useIndex();
+  const {
+    cep,
+    setCep,
+    validCep,
+    searchProfessionals,
+    error,
+    professionals,
+    searchDone,
+    isLoading,
+    remainingProfessionals,
+  } = useIndex();
 
   return (
     <div>
