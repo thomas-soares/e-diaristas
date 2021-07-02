@@ -28,6 +28,7 @@ export default function useIndex() {
       );
     } catch (error) {
       setError("CEP não encontrado");
+      setIsLoading(false);
     }
 
     setSearchDone(true);
