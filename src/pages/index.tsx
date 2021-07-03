@@ -48,6 +48,7 @@ export default function Home() {
             color={"secondary"}
             sx={{ width: "220px" }}
             disabled={!validCep || isLoading}
+            onClick={() => searchProfessionals(cep)}
           >
             Buscar
           </Button>
