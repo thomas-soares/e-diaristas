@@ -2,7 +2,12 @@ import SafeEnvironment from "ui/components/feedback/SafeEnvironment/SafeEnvironm
 import PageTitle from "ui/components/data-display/PageTitle/PageTitle";
 import UserInformation from "ui/components/data-display/UserInformation/UserInformation";
 import TextFieldMask from "ui/components/inputs/TextFieldMask/TextFieldMask";
-import { Button, Typography, Container } from "@material-ui/core";
+import {
+  Button,
+  Typography,
+  Container,
+  CircularProgress,
+} from "@material-ui/core";
 import {
   FormElementsContainer,
   ProfessionalsPaper,
