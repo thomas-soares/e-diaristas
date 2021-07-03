@@ -58,54 +58,59 @@ export default function Home() {
             {isLoading ? <CircularProgress size={20} /> : "Buscar"}
           </Button>
         </FormElementsContainer>
-        {searchDone && (
-          <ProfessionalsPaper>
-            <ProfessionalsContainer>
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-              <UserInformation
-                name={"Thomas"}
-                picture={"https://github.com/thomas-soares.png"}
-                rating={3}
-                description={"Porto Alegre"}
-              />
-            </ProfessionalsContainer>
-          </ProfessionalsPaper>
-        )}
+        {searchDone &&
+          (professionals.length > 0 ? (
+            <ProfessionalsPaper>
+              <ProfessionalsContainer>
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+                <UserInformation
+                  name={"Thomas"}
+                  picture={"https://github.com/thomas-soares.png"}
+                  rating={3}
+                  description={"Porto Alegre"}
+                />
+              </ProfessionalsContainer>
+            </ProfessionalsPaper>
+          ) : (
+            <Typography>
+              Ainda não temos nenhuma diarista disponível em sua região
+            </Typography>
+          ))}
       </Container>
     </div>
   );
