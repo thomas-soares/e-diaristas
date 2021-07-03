@@ -105,6 +105,11 @@ export default function Home() {
                   description={"Porto Alegre"}
                 />
               </ProfessionalsContainer>
+              <Container>
+                <Typography>
+                  ...e mais X profissionais atendem ao seu endereço.
+                </Typography>
+              </Container>
             </ProfessionalsPaper>
           ) : (
             <Typography align={"center"} color={"textPrimary"}>
