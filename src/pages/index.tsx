@@ -107,7 +107,7 @@ export default function Home() {
               </ProfessionalsContainer>
             </ProfessionalsPaper>
           ) : (
-            <Typography>
+            <Typography align={"center"} color={"textPrimary"}>
               Ainda não temos nenhuma diarista disponível em sua região
             </Typography>
           ))}
