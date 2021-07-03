@@ -55,8 +55,7 @@ export default function Home() {
             disabled={!validCep || isLoading}
             onClick={() => searchProfessionals(cep)}
           >
-            <CircularProgress size={20} />
-            Buscar
+            {isLoading ? <CircularProgress size={20} /> : "Buscar"}
           </Button>
         </FormElementsContainer>
         <ProfessionalsPaper>
