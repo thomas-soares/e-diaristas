@@ -108,7 +108,11 @@ export default function Home() {
               <Container sx={{ textAlign: "center" }}>
                 {remainingProfessionals > 0 && (
                   <Typography sx={{ mt: 5 }}>
-                    ...e mais X profissionais atendem ao seu endereço.
+                    ...e mais {remainingProfessionals}
+                    {remainingProfessionals > 1
+                      ? "profissionais atendem"
+                      : "profissional atende"}
+                    ao seu endereço.
                   </Typography>
                 )}
                 <Button
