@@ -62,12 +62,16 @@ export default function Home() {
           (professionals.length > 0 ? (
             <ProfessionalsPaper>
               <ProfessionalsContainer>
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
+                {professionals.map((item) => {
+                  return (
+                    <UserInformation
+                      name={item.name}
+                      picture={item.photo}
+                      rating={item.reputation}
+                      description={item.city}
+                    />
+                  );
+                })}
               </ProfessionalsContainer>
               <Container sx={{ textAlign: "center" }}>
                 {remainingProfessionals > 0 && (
