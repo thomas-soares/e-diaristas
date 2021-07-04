@@ -105,7 +105,7 @@ export default function Home() {
                   description={"Porto Alegre"}
                 />
               </ProfessionalsContainer>
-              <Container>
+              <Container sx={{ textAlign: "center" }}>
                 <Typography>
                   ...e mais X profissionais atendem ao seu endereço.
                 </Typography>
