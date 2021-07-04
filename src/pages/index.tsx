@@ -109,7 +109,13 @@ export default function Home() {
                 <Typography>
                   ...e mais X profissionais atendem ao seu endereço.
                 </Typography>
-                <Button>Contratar um profissional</Button>
+                <Button
+                  variant={"contained"}
+                  color={"secondary"}
+                  sx={{ mt: 5 }}
+                >
+                  Contratar um profissional
+                </Button>
               </Container>
             </ProfessionalsPaper>
           ) : (
