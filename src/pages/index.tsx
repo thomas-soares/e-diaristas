@@ -106,7 +106,7 @@ export default function Home() {
                 />
               </ProfessionalsContainer>
               <Container sx={{ textAlign: "center" }}>
-                <Typography>
+                <Typography sx={{ mt: 5 }}>
                   ...e mais X profissionais atendem ao seu endereço.
                 </Typography>
                 <Button
