@@ -68,42 +68,6 @@ export default function Home() {
                   rating={3}
                   description={"Porto Alegre"}
                 />
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
-                <UserInformation
-                  name={"Thomas"}
-                  picture={"https://github.com/thomas-soares.png"}
-                  rating={3}
-                  description={"Porto Alegre"}
-                />
               </ProfessionalsContainer>
               <Container sx={{ textAlign: "center" }}>
                 {remainingProfessionals > 0 && (
