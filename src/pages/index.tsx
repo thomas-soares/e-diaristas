@@ -62,9 +62,10 @@ export default function Home() {
           (professionals.length > 0 ? (
             <ProfessionalsPaper>
               <ProfessionalsContainer>
-                {professionals.map((item) => {
+                {professionals.map((item, index) => {
                   return (
                     <UserInformation
+                      key={index}
                       name={item.name}
                       picture={item.photo}
                       rating={item.reputation}
